@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="689B9035-9B2A-D1A5-3A13-7E5FD3747EC6" name="T_CDB_ENTREGA">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:17:48 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEntrega" id="37712E97-9200-8265-A96F-DBE662E9A8F3">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:18:06 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataEntrega" id="347B971D-0939-6D5C-AAD6-A98B84058551">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:18:27 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusEntrega" id="71C8B852-A55F-189C-9AEB-0E77CBCD885F">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:19:18 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacao" id="35374D8C-6BF8-65B3-D439-F62EC8F05F62">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:19:56 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="3F769C3E-835B-8F0C-530D-A5B9CC644BBB">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:34:33 UTC</createdTime>
+<generatorID>7147CC83-FAA7-0FD6-B340-A5552CD55AE6</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<referedAttribute>280E2FC2-7BE9-1CE6-2350-9EB7D27F4E6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPapelUsuario" id="9C5AEAD9-C1D9-C3CC-BB7D-7EDDF5AABA9B">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:58:24 UTC</createdTime>
+<generatorID>FB223405-FED3-70B5-DF3D-E670757FF93E</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<referedAttribute>8B094207-B5B4-835C-2F34-AF60822C7581</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idDoacao" id="5CC03E4A-8201-6542-35F6-3B6015821930">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 22:01:02 UTC</createdTime>
+<generatorID>D0E8A76F-2E1E-97F6-F0A8-EB9DB76396A4</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<referedAttribute>FAB0F2EC-D16F-EECC-4409-9291C26F7FA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPonto" id="94368049-6857-8BC7-A355-4BE2EB99E4CB">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 22:01:16 UTC</createdTime>
+<generatorID>51C9E139-AF1E-F0DB-19AF-145CD0F7F66B</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<referedAttribute>424F03F0-3EEB-5A1C-D31B-33332CEAC941</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="112B0ED7-77E1-77F7-A0D7-753885BCEE80" name="T_CDB_ENTREGA PK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:18:13 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37712E97-9200-8265-A96F-DBE662E9A8F3</attributeRef>
+<attributeRef>94368049-6857-8BC7-A355-4BE2EB99E4CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

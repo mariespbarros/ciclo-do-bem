@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEB733E1-A5FE-CF7B-2AC9-7A8112DC0795" name="T_CDB_PONTO">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>3D755321-4C3F-FDF9-F548-0D0D9855D8A7</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPonto" id="E73337DB-210E-5EF6-B449-01258C83B91C">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>424F03F0-3EEB-5A1C-D31B-33332CEAC941</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="0B6B07A4-C47D-D723-04F0-BF5C1169521D">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>267184D5-2251-0F0C-43D3-11E20396676B</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="6F684EDF-EDB7-4CA8-D9D9-43F8B04E3862">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>5B6DBB36-AE5E-D70B-6943-A821460886F7</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="fixo" description=""/>
+<valueDef value="temporario" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcao" id="205BECBC-2B0C-CB88-0270-160394813132">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>657A6F24-D332-7FC3-4B24-9811F79B3660</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="ambos" description=""/>
+<valueDef value="coleta" description=""/>
+<valueDef value="entrega" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="C7DA6700-19E8-3484-0392-B9927DD3047A">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>3899E5A8-FFF0-11B2-6D48-286A53981D8F</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="AD56150B-4412-74D9-D397-90578BF13628">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>985DDEFA-3C00-2DBE-1E3C-5C45FA0897C5</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="B79C1C32-1017-AC0B-3F82-B0E1C2AF681B">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>53FFC5CA-2C94-A391-8C5A-6940A4B3B091</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="B18B6FFE-4D17-CA17-F779-D3FC99E300A6">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>AAC38CAF-2711-3EBB-4A9B-BDBF8E3697E0</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,10,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="DED691EB-F54F-F5B0-373A-8C63FE78A114">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>41664D9E-EEFA-0F78-5F98-8B1FC3E7C01E</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,10,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B60928CE-9622-02BC-0BFD-8C0A572DACC9" name="T_CDB_PONTO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>8130D00B-36CC-44A1-1368-C34A1280B983</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E73337DB-210E-5EF6-B449-01258C83B91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

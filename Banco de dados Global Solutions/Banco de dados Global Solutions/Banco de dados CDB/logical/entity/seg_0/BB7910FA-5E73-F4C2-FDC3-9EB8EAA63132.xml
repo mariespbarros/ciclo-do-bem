@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB7910FA-5E73-F4C2-FDC3-9EB8EAA63132" name="T_CDB_PAPELUSUARIO">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:16:01 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPapelUsuario" id="8B094207-B5B4-835C-2F34-AF60822C7581">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:57:29 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="B18DC501-7BFA-9E4A-E8D0-83DD459FD2DA">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:33:12 UTC</createdTime>
+<generatorID>12A62CDA-FB6E-4459-2E2B-DF18FA4E4BF0</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<referedAttribute>280E2FC2-7BE9-1CE6-2350-9EB7D27F4E6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="papel" id="F817C45C-FD4C-61A5-3AC7-61D7DAB70F2D">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:17:04 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="doador" description=""/>
+<valueDef value="receptor" description=""/>
+<valueDef value="voluntario" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15C5DD9E-F4A1-E11F-E06B-DDEE846A947D" name="T_CDB_PAPELUSUARIO PK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:16:47 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<engineerTo>
+<item key="CED04C8E-DD77-D451-6967-B2CE93978D80" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B094207-B5B4-835C-2F34-AF60822C7581</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

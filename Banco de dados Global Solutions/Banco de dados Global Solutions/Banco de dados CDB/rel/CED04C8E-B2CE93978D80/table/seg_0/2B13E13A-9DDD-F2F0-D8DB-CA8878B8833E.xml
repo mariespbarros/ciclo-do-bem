@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B13E13A-9DDD-F2F0-D8DB-CA8878B8833E" name="T_CDB_USUARIO">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>975E7843-114B-D364-88F3-B6DE9B44247E</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUsuario" id="4F68BF06-DB77-904D-268B-434A13D2F2B0">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>280E2FC2-7BE9-1CE6-2350-9EB7D27F4E6A</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="3672476C-363F-A46F-CD54-09D07795EA98">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>17CE6B83-8CF6-F4A4-1D98-64F7FD7044C0</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="72370411-2871-6883-7C9D-A3C5BC66A1A8">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>5403FA8F-06E3-CBE1-A140-F111DCFA7B82</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="0B1C6D52-4677-11B4-D02A-AE2037CBBE25">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>F678E934-90BA-B3E4-FB4E-038042EC4762</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="F2022810-FF91-0A60-0455-9C96E3C502D1">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>F972BF8C-CA98-C174-90FB-685BB3C1E8B2</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="0D1FD4DD-5BB1-4B7C-0FBC-9468729993A2">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>90356DD0-4363-CE28-9557-95FAD33B5E26</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataCadastro" id="D28BF48D-A84D-2692-8764-8B60A4FEA8B5">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>6244D5A1-44E5-9B09-5EFC-1462DEBD2FD8</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BCCB4C0-5C49-E769-0D34-E4CD8D058D57" name="T_CDB_USUARIO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>4DBBCFB0-4ED8-4B70-C35F-662F2B0DFAF9</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F68BF06-DB77-904D-268B-434A13D2F2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

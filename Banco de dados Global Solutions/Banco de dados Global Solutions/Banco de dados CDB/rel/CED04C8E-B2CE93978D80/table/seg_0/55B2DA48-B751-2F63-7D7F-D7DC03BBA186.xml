@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55B2DA48-B751-2F63-7D7F-D7DC03BBA186" name="T_CDB_PAPELUSUARIO">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>BB7910FA-5E73-F4C2-FDC3-9EB8EAA63132</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPapelUsuario" id="E5F28090-59D6-8832-77BA-6D703C3F4F4E">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>8B094207-B5B4-835C-2F34-AF60822C7581</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CDB_USUARIO_idUsuario" id="129E6BF3-3868-61F7-AF68-857B38C279B3">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>B18DC501-7BFA-9E4A-E8D0-83DD459FD2DA</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E6E80A0-472C-76FC-339D-D5D42A852482" referredColumn="4F68BF06-DB77-904D-268B-434A13D2F2B0"/>
+</associations>
+</Column>
+<Column name="papel" id="6EADE9C4-D767-F73D-B266-786CA732E265">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>F817C45C-FD4C-61A5-3AC7-61D7DAB70F2D</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="doador" description=""/>
+<valueDef value="receptor" description=""/>
+<valueDef value="voluntario" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9E4EABD-D32E-8541-193C-B6781359A208" name="T_CDB_PAPELUSUARIO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>15C5DD9E-F4A1-E11F-E06B-DDEE846A947D</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F28090-59D6-8832-77BA-6D703C3F4F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C368F83D-F3CF-6036-B175-1494EADA9FA1" name="T_CDB_PAPELUSUARIO_T_CDB_USUARIO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>12A62CDA-FB6E-4459-2E2B-DF18FA4E4BF0</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="129E6BF3-3868-61F7-AF68-857B38C279B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

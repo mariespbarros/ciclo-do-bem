@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4DC281C9-6AB5-4807-3126-D4D2F4E40D0E" containerWithKeyObject="055AC8DF-A3CF-FBB1-898A-787E38A03412" localFKIndex="7502CA8D-A0E2-D8C6-5521-18C96E9D4841" name="T_CDB_ENTREGA_T_CDB_DOACAO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>D0E8A76F-2E1E-97F6-F0A8-EB9DB76396A4</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<referredTableLongName>T_CDB_DOACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4BF5CE7A-4E97-A46A-D1DC-C87C9998298A</referredTableID>
+<keyObject>D574E9C7-470E-6E5D-BB56-6A541F94326E</keyObject>
+<referredKeyID>D574E9C7-470E-6E5D-BB56-6A541F94326E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDoacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

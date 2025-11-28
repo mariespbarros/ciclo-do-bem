@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="891446BD-96A3-4537-4A9A-D79D5CD226AE" mainViewID="2F734448-545C-6E4A-E00A-969D88DE137A">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 21:09:26 UTC</createdTime>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

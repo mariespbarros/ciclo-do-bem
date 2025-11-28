@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BF5CE7A-4E97-A46A-D1DC-C87C9998298A" name="T_CDB_DOACAO">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>73A7B269-DB09-E976-8965-2798CBD1FA16</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDoacao" id="7EF94F45-9115-0F1C-3A21-7FDEBACEE1D1">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>FAB0F2EC-D16F-EECC-4409-9291C26F7FA2</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataDoacao" id="9276D1BF-1327-E2BD-3565-6FB80F97A95D">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>87396D49-AB47-7571-B319-123A2E51965E</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoEmbalagem" id="AD7BCB15-9A33-5157-9159-EE1CB7121997">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>93FE780F-4B63-F2AE-6CD1-FAA0DDA12BE5</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="Caixa" description=""/>
+<valueDef value="Sacola" description=""/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="2E580BBC-E3AA-10E6-5E42-F9E5EF149D71">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>2E6ED49B-6A05-B8E6-6405-C04186397A41</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="condicaoGeral" id="8285D881-1836-E6BC-1D1F-69EC6C577F0F">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>9F99B7DD-3924-D067-C1FF-102A10C1BFE0</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagemURL" id="0A887F55-DD98-27AA-27FD-8530DF4E100A">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>2D58F5C1-5F99-71C6-685D-024ABB10E4A5</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacao" id="623AE69E-71EC-1F17-B188-D14EB3994013">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>CC026B78-3E2D-60D7-1B29-00A824E1EFA3</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CDB_USUARIO_idUsuario" id="45CCFFF6-C971-76D8-5231-FB88D79B6B5B">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>40AA1AFA-F3EA-71D4-D18B-1334B653329B</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08BA5957-23FA-D624-C394-78BDFDB2B302" referredColumn="4F68BF06-DB77-904D-268B-434A13D2F2B0"/>
+</associations>
+</Column>
+<Column name="T_CDB_PONTO_idPonto" id="8E57142F-DE29-CF00-F4B4-BF1042E83613">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>4E8ED3ED-A2F5-96A3-9495-53EB2D14558F</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F94113C-2B75-5989-6ED6-DAB2BFB2EEEB" referredColumn="E73337DB-210E-5EF6-B449-01258C83B91C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D574E9C7-470E-6E5D-BB56-6A541F94326E" name="T_CDB_DOACAO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>3D8AAAE1-0107-46EE-0F5B-5A76FFCECB46</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EF94F45-9115-0F1C-3A21-7FDEBACEE1D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6270EE4D-C1BC-6B54-6BFF-95D70D5967D9" name="T_CDB_DOACAO_T_CDB_USUARIO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>B70BBFA9-107E-031E-AF02-546C26A9F9B2</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45CCFFF6-C971-76D8-5231-FB88D79B6B5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5BBC64A-C857-E445-0953-B620EE911858" name="T_CDB_DOACAO_T_CDB_PONTO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>D864C314-1ABB-0F7E-F940-289EF2097C5C</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E57142F-DE29-CF00-F4B4-BF1042E83613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

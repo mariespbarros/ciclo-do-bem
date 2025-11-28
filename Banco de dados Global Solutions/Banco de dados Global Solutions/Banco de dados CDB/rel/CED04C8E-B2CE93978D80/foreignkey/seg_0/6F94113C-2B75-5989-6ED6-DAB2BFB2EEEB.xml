@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F94113C-2B75-5989-6ED6-DAB2BFB2EEEB" containerWithKeyObject="4BF5CE7A-4E97-A46A-D1DC-C87C9998298A" localFKIndex="A5BBC64A-C857-E445-0953-B620EE911858" name="T_CDB_DOACAO_T_CDB_PONTO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2025-06-06 23:00:21 UTC</createdTime>
+<generatorID>D864C314-1ABB-0F7E-F940-289EF2097C5C</generatorID>
+<ownerDesignName>Banco de dados CDB</ownerDesignName>
+<referredTableLongName>T_CDB_PONTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AEB733E1-A5FE-CF7B-2AC9-7A8112DC0795</referredTableID>
+<keyObject>B60928CE-9622-02BC-0BFD-8C0A572DACC9</keyObject>
+<referredKeyID>B60928CE-9622-02BC-0BFD-8C0A572DACC9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPonto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
